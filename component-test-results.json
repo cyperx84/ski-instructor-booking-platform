@@ -1,0 +1,641 @@
+{
+  "timestamp": "2025-07-22T20:54:32.498Z",
+  "overallScore": 79.8,
+  "grade": "B",
+  "totalTests": 94,
+  "totalPasses": 75,
+  "componentResults": {
+    "backend": {
+      "tests": 20,
+      "passes": 15,
+      "warnings": 5,
+      "fails": 0,
+      "details": [
+        {
+          "status": "pass",
+          "test": "controllers Directory",
+          "details": "5 TypeScript files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "middleware Directory",
+          "details": "3 TypeScript files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "routes Directory",
+          "details": "6 TypeScript files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "services Directory",
+          "details": "0 TypeScript files found",
+          "recommendations": [
+            "Consider adding more modular components"
+          ]
+        },
+        {
+          "status": "pass",
+          "test": "types Directory",
+          "details": "1 TypeScript files found",
+          "recommendations": [
+            "Consider adding more modular components"
+          ]
+        },
+        {
+          "status": "pass",
+          "test": "utils Directory",
+          "details": "2 TypeScript files found",
+          "recommendations": [
+            "Consider adding more modular components"
+          ]
+        },
+        {
+          "status": "warning",
+          "test": "Controller: authController.ts",
+          "details": "Error handling: No, Validation: Yes, Logging: Yes",
+          "recommendations": [
+            "Add comprehensive error handling"
+          ]
+        },
+        {
+          "status": "warning",
+          "test": "Controller: availabilityController.ts",
+          "details": "Error handling: No, Validation: Yes, Logging: Yes",
+          "recommendations": [
+            "Add comprehensive error handling"
+          ]
+        },
+        {
+          "status": "warning",
+          "test": "Controller: bookingController.ts",
+          "details": "Error handling: No, Validation: Yes, Logging: Yes",
+          "recommendations": [
+            "Add comprehensive error handling"
+          ]
+        },
+        {
+          "status": "warning",
+          "test": "Controller: instructorController.ts",
+          "details": "Error handling: No, Validation: Yes, Logging: Yes",
+          "recommendations": [
+            "Add comprehensive error handling"
+          ]
+        },
+        {
+          "status": "warning",
+          "test": "Controller: instructorManagementController.ts",
+          "details": "Error handling: No, Validation: Yes, Logging: Yes",
+          "recommendations": [
+            "Add comprehensive error handling"
+          ]
+        },
+        {
+          "status": "pass",
+          "test": "Middleware: auth.ts",
+          "details": "Present and configured",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Middleware: error.ts",
+          "details": "Present and configured",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Middleware: security.ts",
+          "details": "Present and configured",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Route: auth.ts",
+          "details": "HTTP methods: get, post, put",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Route: availability.ts",
+          "details": "HTTP methods: get, post, put, delete",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Route: bookings.ts",
+          "details": "HTTP methods: get, post, put, patch",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Route: health.ts",
+          "details": "HTTP methods: get",
+          "recommendations": [
+            "Consider adding more CRUD operations"
+          ]
+        },
+        {
+          "status": "pass",
+          "test": "Route: instructorManagement.ts",
+          "details": "HTTP methods: get, post, put",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Route: instructors.ts",
+          "details": "HTTP methods: get, post, put, delete, patch",
+          "recommendations": []
+        }
+      ]
+    },
+    "frontend": {
+      "tests": 14,
+      "passes": 14,
+      "warnings": 0,
+      "fails": 0,
+      "details": [
+        {
+          "status": "pass",
+          "test": "Page: login",
+          "details": "Implemented",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Page: register",
+          "details": "Implemented",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Page: dashboard",
+          "details": "Implemented",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Page: bookings",
+          "details": "Implemented",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Page: search",
+          "details": "Implemented",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Component Group: auth",
+          "details": "1 components found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Component Group: error",
+          "details": "1 components found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Component Group: instructor",
+          "details": "4 components found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Component Group: layout",
+          "details": "2 components found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Component Group: providers",
+          "details": "1 components found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Component Group: ui",
+          "details": "6 components found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Store: useAuthStore.ts",
+          "details": "Zustand state management detected",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Store: useBookingStore.ts",
+          "details": "Zustand state management detected",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Store: useNotificationStore.ts",
+          "details": "Zustand state management detected",
+          "recommendations": []
+        }
+      ]
+    },
+    "mobile": {
+      "tests": 12,
+      "passes": 12,
+      "warnings": 0,
+      "fails": 0,
+      "details": [
+        {
+          "status": "pass",
+          "test": "Dependency: react-native",
+          "details": "Core framework - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Dependency: @react-navigation/native",
+          "details": "Navigation - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Dependency: react-redux",
+          "details": "State management - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Dependency: @react-native-geolocation/geolocation",
+          "details": "GPS functionality - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Dependency: react-native-biometrics",
+          "details": "Biometric authentication - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Dependency: react-native-camera",
+          "details": "Camera integration - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Dependency: @react-native-firebase/messaging",
+          "details": "Push notifications - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Dependency: react-native-maps",
+          "details": "Map integration - Installed",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Mobile screens",
+          "details": "3 files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Mobile services",
+          "details": "9 files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Mobile store",
+          "details": "8 files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Mobile navigation",
+          "details": "1 files found",
+          "recommendations": []
+        }
+      ]
+    },
+    "database": {
+      "tests": 21,
+      "passes": 7,
+      "warnings": 0,
+      "fails": 14,
+      "details": [
+        {
+          "status": "pass",
+          "test": "Database Migrations",
+          "details": "14 migration files found",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 001_create_extensions_and_types.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 002_create_user_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 003_create_certification_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 004_create_location_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 005_create_availability_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 006_create_booking_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 007_create_payment_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 008_create_review_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 009_create_communication_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 010_create_analytics_tables.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 011_create_triggers.sql",
+          "details": "Indexes: No, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 012_create_indexes.sql",
+          "details": "Indexes: Yes, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 013_create_constraints.sql",
+          "details": "Indexes: No, Constraints: Yes",
+          "recommendations": []
+        },
+        {
+          "status": "info",
+          "test": "Migration: 014_create_instructor_enhancement_tables.sql",
+          "details": "Indexes: Yes, Constraints: No",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Seed Data: 001_certification_types.sql",
+          "details": "1 INSERT statements found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Seed Data: 002_resorts.sql",
+          "details": "1 INSERT statements found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Seed Data: 003_sample_users.sql",
+          "details": "3 INSERT statements found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Seed Data: 004_instructor_profiles.sql",
+          "details": "1 INSERT statements found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Seed Data: 005_client_profiles.sql",
+          "details": "1 INSERT statements found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "Seed Data: 006_instructor_management_data.sql",
+          "details": "11 INSERT statements found",
+          "recommendations": []
+        }
+      ]
+    },
+    "integration": {
+      "tests": 27,
+      "passes": 27,
+      "warnings": 0,
+      "fails": 0,
+      "details": [
+        {
+          "status": "pass",
+          "test": "ai-ml Configuration",
+          "details": "Package configured: @ski-booking/ai-ml",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "ai-ml Documentation",
+          "details": "README size: 2310 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "ai-ml Implementation",
+          "details": "13 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "payment-system Configuration",
+          "details": "Package configured: ski-instructor-booking-system",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "payment-system Documentation",
+          "details": "README size: 2310 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "payment-system Implementation",
+          "details": "13 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "payment-system Implementation",
+          "details": "10 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "booking-engine Configuration",
+          "details": "Package configured: ski-instructor-booking-system",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "booking-engine Documentation",
+          "details": "README size: 12524 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "booking-engine Implementation",
+          "details": "5 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "booking-engine Implementation",
+          "details": "3 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "weather-integration Configuration",
+          "details": "Package configured: weather-integration",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "weather-integration Documentation",
+          "details": "README size: 2310 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "weather-integration Implementation",
+          "details": "18 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "calendar-integration Configuration",
+          "details": "Package configured: ski-instructor-booking-system",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "calendar-integration Documentation",
+          "details": "README size: 2310 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "calendar-integration Implementation",
+          "details": "19 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "admin-dashboard Configuration",
+          "details": "Package configured: ski-instructor-booking-system",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "admin-dashboard Documentation",
+          "details": "README size: 2310 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "admin-dashboard Implementation",
+          "details": "26 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "admin-dashboard Implementation",
+          "details": "25 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "communication Configuration",
+          "details": "Package configured: ski-instructor-booking-system",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "communication Documentation",
+          "details": "README size: 2310 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "communication Implementation",
+          "details": "1 source files found",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "analytics Configuration",
+          "details": "Package configured: ski-instructor-booking-system",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "analytics Documentation",
+          "details": "README size: 2310 characters",
+          "recommendations": []
+        },
+        {
+          "status": "pass",
+          "test": "analytics Implementation",
+          "details": "2 source files found",
+          "recommendations": []
+        }
+      ]
+    }
+  },
+  "summary": {
+    "status": "DEVELOPMENT READY",
+    "recommendations": [
+      "Fix remaining TypeScript compilation errors",
+      "Setup PostgreSQL database for testing",
+      "Complete frontend SWC compiler fixes",
+      "Test mobile app on actual devices",
+      "Implement comprehensive integration testing"
+    ]
+  }
+}
