@@ -159,6 +159,12 @@ You'll need to register users and create instructor profiles manually through th
 - `GET /api/bookings/user/my-bookings` - Get user's bookings
 - `PATCH /api/bookings/:id/cancel` - Cancel booking
 
+### Instructor Dashboard (Instructor Only)
+- `GET /api/instructor/dashboard` - Get dashboard data with stats
+- `GET /api/instructor/bookings` - Get instructor bookings (filtered by status/timeframe)
+- `PATCH /api/instructor/bookings/:id/complete` - Mark booking as complete
+- `GET /api/instructor/earnings` - Get detailed earnings breakdown
+
 ### Payments
 - `POST /api/payments/create-payment-intent` - Create Stripe payment intent
 - `POST /api/payments/webhook` - Stripe webhook handler
@@ -199,6 +205,12 @@ You'll need to register users and create instructor profiles manually through th
 - ✅ Add certifications
 - ✅ Create availability slots
 - ✅ Receive bookings
+- ✅ **Full instructor dashboard**
+  - View all upcoming and past bookings
+  - Manage booking status (mark as complete)
+  - Track total earnings and statistics
+  - Monthly earnings breakdown
+  - Detailed earnings history with fee breakdown
 - ✅ Automatic payouts (85% of booking price)
 
 ## 🧪 Testing
@@ -219,6 +231,14 @@ Use any future expiry date and any CVC.
 - `/bookings/[id]` - Payment page
 - `/login` - User login
 - `/register` - User registration
+- `/dashboard` - **Instructor dashboard** (instructor role only)
+  - View statistics and manage bookings
+  - Track upcoming and past lessons
+  - Mark bookings as complete
+- `/dashboard/earnings` - **Detailed earnings** (instructor role only)
+  - Complete earnings breakdown
+  - Monthly trends and totals
+  - Fee calculations
 
 ## 🔧 Database Schema
 
