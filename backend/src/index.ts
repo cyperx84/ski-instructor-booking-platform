@@ -8,6 +8,7 @@ import authRoutes from './routes/auth';
 import instructorRoutes from './routes/instructors';
 import bookingRoutes from './routes/bookings';
 import paymentRoutes from './routes/payments';
+import instructorDashboardRoutes from './routes/instructor-dashboard';
 import { errorHandler } from './middleware/errorHandler';
 import { pool } from './config/database';
 
@@ -52,6 +53,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/instructors', instructorRoutes);
 app.use('/api/bookings', bookingRoutes);
 app.use('/api/payments', paymentRoutes);
+app.use('/api/instructor', instructorDashboardRoutes);
 
 // 404 handler
 app.use((req, res) => {

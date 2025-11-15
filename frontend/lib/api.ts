@@ -106,4 +106,28 @@ export const createPaymentIntent = async (data: CreatePaymentIntentRequest) => {
   return response.data.data;
 };
 
+// Instructor Dashboard
+export const getInstructorDashboard = async () => {
+  const response = await api.get('/instructor/dashboard');
+  return response.data.data;
+};
+
+export const getInstructorBookings = async (filters?: {
+  status?: string;
+  timeframe?: 'upcoming' | 'past';
+}) => {
+  const response = await api.get('/instructor/bookings', { params: filters });
+  return response.data.data;
+};
+
+export const markBookingComplete = async (bookingId: string) => {
+  const response = await api.patch(`/instructor/bookings/${bookingId}/complete`);
+  return response.data;
+};
+
+export const getInstructorEarnings = async () => {
+  const response = await api.get('/instructor/earnings');
+  return response.data.data;
+};
+
 export default api;
