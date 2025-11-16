@@ -19,13 +19,13 @@ npm --version
 
 ```bash
 # Create database
-createdb snowboard_booking
+createdb snow_instructor_booking
 
 # Run migrations
-psql -d snowboard_booking -f database/migrations/001_create_tables.sql
+psql -d snow_instructor_booking -f database/migrations/001_create_tables.sql
 
 # Add sample data (3 instructors with availability)
-psql -d snowboard_booking -f database/seeds/001_sample_data.sql
+psql -d snow_instructor_booking -f database/seeds/001_sample_data.sql
 ```
 
 ## 3. Backend Setup (1 minute)

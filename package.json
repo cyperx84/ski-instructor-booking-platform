@@ -1,7 +1,7 @@
 {
-  "name": "snowboard-booking-mvp",
+  "name": "snow-instructor-booking",
   "version": "1.0.0",
-  "description": "Simple MVP for snowboard instructor booking platform",
+  "description": "Simple MVP for snow instructor booking platform",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",

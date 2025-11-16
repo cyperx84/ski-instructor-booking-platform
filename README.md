@@ -1,10 +1,10 @@
-# 🏂 Snowboard Instructor Booking MVP
+# 🏂 Snow Instructor Booking MVP
 
-A **simple, working MVP** for booking snowboard and ski instructors. Built with modern technologies and real Stripe payment integration.
+A **simple, working MVP** for booking snowboard and snow instructors. Built with modern technologies and real Stripe payment integration.
 
 ## 🎯 What This Is
 
-This is a **simplified, production-ready** platform for connecting snowboard/ski instructors with clients. Unlike the complex reference repo, this MVP focuses on:
+This is a **simplified, production-ready** platform for connecting snowboard/snow instructors with clients. Unlike the complex reference repo, this MVP focuses on:
 
 - ✅ **Core functionality only** - no unnecessary features
 - ✅ **Easy to understand** - clean, straightforward code
@@ -77,13 +77,13 @@ Create the PostgreSQL database:
 psql -U postgres
 
 # Create database
-CREATE DATABASE snowboard_booking;
+CREATE DATABASE snow_instructor_booking;
 
 # Exit
 \q
 
 # Run migrations
-psql -U postgres -d snowboard_booking -f database/migrations/001_create_tables.sql
+psql -U postgres -d snow_instructor_booking -f database/migrations/001_create_tables.sql
 ```
 
 ### 3. Environment Variables

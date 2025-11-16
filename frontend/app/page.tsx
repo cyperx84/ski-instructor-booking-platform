@@ -11,7 +11,7 @@ export default function HomePage() {
       <section className="text-center py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg">
         <h1 className="text-5xl font-bold mb-4">Learn to Ride with the Best</h1>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
-          Book professional snowboard and ski instructors for unforgettable mountain experiences
+          Book professional snowboard and snow instructors for unforgettable mountain experiences
         </p>
         <Link href="/instructors">
           <Button size="lg" variant="secondary" className="text-lg px-8">

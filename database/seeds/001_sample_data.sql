@@ -1,4 +1,4 @@
--- Sample data for testing the snowboard booking MVP
+-- Sample data for testing the snow instructor booking MVP
 -- Run this after running the migrations
 
 -- Insert sample users

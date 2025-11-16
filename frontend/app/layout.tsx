@@ -7,8 +7,8 @@ import { Navigation } from '@/components/Navigation';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Snowboard Instructor Booking',
-  description: 'Book professional snowboard and ski instructors',
+  title: 'Snow Instructor Booking',
+  description: 'Book professional snowboard and snow instructors',
 };
 
 export default function RootLayout({

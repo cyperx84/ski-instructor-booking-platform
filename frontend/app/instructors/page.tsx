@@ -48,7 +48,7 @@ export default function InstructorsPage() {
       <div>
         <h1 className="text-4xl font-bold mb-2">Find Your Perfect Instructor</h1>
         <p className="text-muted-foreground">
-          Browse our selection of certified snowboard and ski instructors
+          Browse our selection of certified snowboard and snow instructors
         </p>
       </div>
 
